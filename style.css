@@ -169,7 +169,11 @@ footer p {
     }
 
     hr {
-        width: 200px;
+        background-color: #a65e45;
+    	width: 150px;
+    	height: 2px;
+    	border: 0;
+    	margin: 20px 0;
     }
 
     section {
