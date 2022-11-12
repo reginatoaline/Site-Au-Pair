@@ -1,2 +1,2 @@
 # AU-PAIR-site
- Creating a full website about the Au Pair program. 
+ Creating a full responsive website about the Au Pair program. 
