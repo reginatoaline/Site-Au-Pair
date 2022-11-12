@@ -142,25 +142,9 @@ footer p {
     section {
         margin: 0;
         flex-direction: column-reverse;
-        align-items: center;
         width: 85%;
     }
-
-    nav {
-        display: flex;
-        align-items: center;
-    }
-
-
-}
-
-@media (max-width: 600px) {
-    header {
-        padding: 10px 25px;
-        flex-direction: column;
-        
-    }
-
+	
     header h1 {
         font-size: 30px;
     }
@@ -169,21 +153,17 @@ footer p {
         font-size: 10px
     }
 
-    hr {
-        width: 200px;
-    }
-
-    section {
-        margin: 0;
-        flex-direction: column-reverse;
-        align-items: center;
-        width: 85%;
-    }
-
     nav {
         display: flex;
-        align-items: center;
+	width: 85%;
     }
+	
+	.content {
+		 width: 85%;
+	}
 
 
 }
+
+
+
