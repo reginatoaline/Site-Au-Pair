@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    color: #a65e45;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+hr {
+    background-color: #a65e45;
+    width: 450px;
+    height: 3px;
+    border: 0;
+    margin: 20px 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */ 
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+    background-color: #f8f4ef;
+}
+
+h1 {
+    color: #a65e45;
+    font-size: 40px;
+}
+
+h4 {
+    color: #a65e45;
+    font-size: 15px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+/* section */ 
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 20%;
+    color: white;
+    margin: 30px 20px;
+}
+
+ul {
+    list-style: none;
+    background: #e8b2a4;
+	padding: 10px;
+}
+
+li {
+    padding: 10px;
+	margin: 10px;
+	background: white;
+}
+
+a {
+    text-decoration: none;
+    color: #a65e45;
+}
+
+nav a:hover {
+	border-bottom: 2px solid #a65e45;
+}
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+h3 {
+    color: #a65e45;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h5 {
+    color: #a65e45;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+p {
+    color: #a65e45;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* footer */ 
+
+footer {
+    margin-top: 20px;
+    background-color: #a65e45;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* different sizes of screens */ 
+@media (max-width: 800px) {
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+
+    section {
+        margin: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+
+
+}
