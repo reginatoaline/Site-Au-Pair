@@ -169,6 +169,11 @@ footer p {
 	img {
 		width: 70%;
 	}
+	
+	
+	hr {
+		width: 200px;
+	}
 
 
 }
@@ -208,6 +213,10 @@ footer p {
 	
 	img {
 		width: 70%;
+	}
+	
+	hr {
+		width: 200px;
 	}
 
 
