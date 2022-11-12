@@ -138,6 +138,8 @@ footer p {
         padding: 10px 25px;
         flex-direction: column;
 	margin: 0;
+	justify-content: center;
+	    
     }
 
     section {
@@ -176,6 +178,7 @@ footer p {
         padding: 10px 25px;
         flex-direction: column;
 	margin: 0;
+	justify-content: center;
     }
 
     section {
