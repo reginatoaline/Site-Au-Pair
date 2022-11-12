@@ -168,6 +168,10 @@ footer p {
         font-size: 10px
     }
 
+    hr {
+        width: 200px;
+    }
+
     section {
         margin: 0;
         flex-direction: column-reverse;
