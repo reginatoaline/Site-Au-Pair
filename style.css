@@ -180,13 +180,17 @@ footer p {
         margin: 0;
         flex-direction: column-reverse;
         align-items: center;
+	     width: 80%;
     }
 
     nav {
         display: flex;
         align-items: center;
-        width: 60%;
     }
+	
+	img {
+		width: 60%;
+	}
 
 
 }
